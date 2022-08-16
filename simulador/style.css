@@ -1,0 +1,110 @@
+label{
+    font-size: 1rem;
+    padding-top: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+/* .borda{
+    border: 1px solid red;
+} */
+
+.contform{
+    padding: 70px 25px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+}
+
+.contform2{
+    margin: 10px 0px;
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 15px;
+}
+
+main{
+    height: 100vh;
+}
+
+.form-control, .form-select {
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #434a52 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: inherit !important;
+    font-size: 0.9rem !important;
+    padding-left: 0 !important;
+    margin-bottom: 10px;
+}
+
+.conteudo_esq{
+    background: purple;
+    box-shadow: 2px 0px 5px 2px;
+}
+
+
+.btn{
+    line-height: 2 !important;
+    transition: 0.5s ease-in-out !important;
+    font-weight: 500 !important;
+    margin-top: 20px !important;
+}
+
+input, select{
+    border-radius: 10px !important;
+}
+
+.btn:hover{
+    width: 20vw !important;
+    border-radius: 13px 0 13px 0 !important;
+    font-weight: 500 !important;
+}
+
+.conteudo_dir{
+    background: linear-gradient(-90deg, rgba(128, 0, 128, 0.5), rgba(0, 0, 0, 0.30)), url(imagens/fundo6.jpg) no-repeat;
+    filter: saturate(0.5);
+    background-size: cover;
+    box-shadow: 5px 0px 15px 5px;
+}
+
+.logo img{
+    width: 25vw;
+    margin-top: 10px;
+}
+
+
+.conteudo p{
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    font-size: 0.9vw;
+}
+
+.conteudo p b{
+    font-size: 1.8vw;
+    font-family: 'Playfair Display', serif;
+    margin-left: 1px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+.display-5 {
+    font-size: 3vw !important;
+}
+
+.col-6 {
+    width: 18vw !important;
+}
+
+.btn{
+    padding: 1rem 0rem !important;
+    font-size: 0.8em !important;
+}

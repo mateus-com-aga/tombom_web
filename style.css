@@ -1,0 +1,173 @@
+/** @format */
+
+.navbar-brand img {
+    height: 5vh;
+    max-height: 75px;
+    min-height: 25px;
+}
+
+@font-face {
+    font-family: "vivo";
+    src: url("itc-officina-serif-bold.woff") format("truetype");
+}
+
+.display-1,
+.display-3 {
+    font-family: vivo !important;
+}
+
+.navbar {
+    height: 12vh;
+    min-height: 70px !important;
+    max-height: 100px;
+    min-height: 50px;
+}
+
+.bg-dark {
+    background: rgb(2, 0, 36) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(97, 9, 121, 1) 42%,
+        rgba(159, 11, 181, 1) 100%
+    ) !important;
+}
+
+.campanhas p {
+    text-align: center;
+    color: rgba(75, 26, 105, 1);
+    font-weight: bold;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    border-radius: 15px !important;
+}
+
+.carousel {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+        50px 34px 50px 25px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+        50px 34px 50px 25px rgba(0, 0, 0, 0);
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+    background: rgb(2, 0, 36) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(97, 9, 121, 1) 42%,
+        rgba(159, 11, 181, 1) 100%
+    ) !important;
+}
+
+footer div {
+    height: 25vh;
+    position: relative;
+}
+
+footer div p {
+    position: absolute;
+    bottom: 5vh;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Courier New", Courier, monospace;
+}
+
+footer div p span {
+    font-size: 1.5rem;
+}
+
+.btn-secondary {
+    background-color: #9024b2 !important;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9024b2 !important;
+    --bs-btn-border-color: #9024b2 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #9024b2 !important;
+    --bs-btn-hover-border-color: #9024b2 !important;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #9024b2 !important;
+    --bs-btn-active-border-color: #9024b2 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #9024b2 !important;
+    --bs-btn-disabled-border-color: #9024b2 !important;
+}
+
+hr {
+    margin: 1.2rem auto;
+    width: 20vw;
+    color: inherit;
+    border: 0;
+    border-top: 2px solid;
+    opacity: 0.25;
+}
+
+.card-bord {
+    box-shadow: 0px 10px 13px -7px #00000028;
+    transition: ease-out 0.5s;
+}
+
+.card-bord:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(159, 11, 181, 1);
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+}
+
+.carousel-control-next{
+    right: -70px;
+}
+
+.carousel-control-prev{
+    left: -70px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(img/next.svg);
+}
+.carousel-control-prev-icon {
+    background-image: url(img/prev.svg);
+}

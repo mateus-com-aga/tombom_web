@@ -1,0 +1,85 @@
+/** @format */
+
+@font-face {
+    font-family: "fontvivo";
+    src: url("itc-officina-serif-bold.woff") format("woff");
+}
+
+* {
+    font-family: fontvivo;
+    color: #660099;
+}
+
+.qtd {
+    font-size: 0.7rem !important;
+}
+
+header {
+    height: 20vh;
+    max-height: 100px;
+}
+
+.text-1 img {
+    height: 20vh;
+    max-height: 100px;
+}
+
+.logo img {
+    height: 20vh;
+    max-height: 100px;
+}
+
+input#tot.form-control.tot{
+    padding: 2px !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-select,
+.form-control,
+.input-group-text {
+    border: 2px solid #660099 !important;
+}
+
+.input-group-text {
+    color: #660099 !important;
+}
+
+fieldset.scheduler-border {
+    border: 3px groove #660099 !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    border-radius: 10px;
+    margin: 1em !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #660099;
+    box-shadow: 0px 0px 0px 0px #660099;
+}
+
+legend.scheduler-border {
+    width: inherit; /* Or auto */
+    padding: 0 10px; /* To give a bit of padding on the left and right */
+    border-bottom: none;
+}
+
+@media print {
+}
+
+.form-floating > .form-control-plaintext ~ label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+    transform: scale(0.55) translateY(-0.5rem) translateX(0.15rem) !important;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext,
+.form-floating > .form-select {
+    height: calc(3rem + 2px) !important;
+}
+
+#consultor .form-control {
+    font-size: 0.7rem !important;
+}
